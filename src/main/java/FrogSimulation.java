@@ -21,9 +21,10 @@ public class FrogSimulation
 			if(hops<0){
 				return false;
 			}
-		}
-		if(hops >= goalDistance){
-			return true;
+			
+			if(hops >= goalDistance){
+				return true;
+			}
 		}
 		return false;
 	}
