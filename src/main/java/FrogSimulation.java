@@ -36,6 +36,7 @@ public class FrogSimulation
 				correct++;
 			}
 		}
+		return correct/num;
 	}
 	
 	
